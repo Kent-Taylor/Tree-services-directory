@@ -276,13 +276,13 @@ a:hover{text-decoration:underline}
   border-bottom:1px solid var(--border);
   background: #7a8933;
 }
-.nav{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 20px;max-width:var(--max);margin:0 auto}
+.nav{display:flex; flex-direction: column; align-items:center;justify-content:space-between;gap:14px;padding:14px 20px;max-width:var(--max);margin:0 auto}
 .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.2px}
 .brand .brand-icon {
   width: 85px;
 }
 .badge{font-size:12px;color:var(--muted);border:1px solid var(--border);padding:4px 10px;border-radius:999px}
-.navlinks{display:flex;gap:14px;flex-wrap:wrap;justify-content:flex-end}
+.navlinks{display:flex;gap:14px;flex-wrap:wrap;justify-content: center}
 .navlinks a{font-weight:650;color:var(--text);opacity:.9}
 .navlinks a:hover{opacity:1}
 
@@ -373,10 +373,6 @@ a:hover{text-decoration:underline}
 .cards{
   display:grid;
   gap:12px;
-  max-height: 70vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 .card{
   border:1px solid var(--border);
