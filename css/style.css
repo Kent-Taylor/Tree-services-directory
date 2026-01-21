@@ -106,6 +106,21 @@ textarea {
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
+/* Hero urgency badge */
+.hero-badge{
+  display:inline-block;
+  padding:6px 10px;
+  margin-bottom:10px;
+  border-radius:999px;
+  border:1px solid rgba(0,0,0,0.12);
+  background:rgba(0,0,0,0.04);
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  line-height:1;
+}
+
 .visually-hidden {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -273,18 +288,58 @@ a:hover{text-decoration:underline}
   position:sticky;top:0;z-index:10;
   backdrop-filter: blur(10px);
   background:rgba(11,18,32,.55);
-  border-bottom:1px solid var(--border);
-  background: #7a8933;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  background: linear-gradient(
+    180deg,
+    #1f2a14 0%,
+    #24321a 100%
+  );
 }
 .nav{display:flex; flex-direction: column; align-items:center;justify-content:space-between;gap:14px;padding:14px 20px;max-width:var(--max);margin:0 auto}
-.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.2px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.2px
+
+
+}
+
+.brand span:first-child {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+
+
 .brand .brand-icon {
   width: 85px;
 }
 .badge{font-size:12px;color:var(--muted);border:1px solid var(--border);padding:4px 10px;border-radius:999px}
-.navlinks{display:flex;gap:14px;flex-wrap:wrap;justify-content: center}
-.navlinks a{font-weight:650;color:var(--text);opacity:.9}
-.navlinks a:hover{opacity:1}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 100px;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4));
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.navlinks{display:flex;gap:14px;flex-wrap:wrap;justify-content: center;
+
+}
+.navlinks a{  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.85;
+  color: #c7e555;
+  transition: ease-in-out 0.3s;
+}
+
+.navlinks a:hover{
+  opacity: 2;
+  text-decoration: none;
+}
 
 .hero{
   padding:26px 0 6px 0;
@@ -324,6 +379,15 @@ a:hover{text-decoration:underline}
 @media (max-width: 880px){
   .grid{grid-template-columns:1fr}
   .h1{font-size:26px}
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header img {
+    border: none;
+  }
 }
 
 .panel{

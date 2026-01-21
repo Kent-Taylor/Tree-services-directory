@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://yourdomain.com/</loc></url>
-  <url><loc>https://yourdomain.com/tree-removal-knoxville-tn.html</loc></url>
-  <url><loc>https://yourdomain.com/tree-trimming-knoxville-tn.html</loc></url>
-  <url><loc>https://yourdomain.com/tree-care-knoxville-tn.html</loc></url>
-  <url><loc>https://yourdomain.com/tree-contractors-knoxville-tn.html</loc></url>
-  <url><loc>https://yourdomain.com/most-affordable-tree-service-knoxville-tn.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://knoxvilletreesservices.com/</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://knoxvilletreesservices.com/tree-trimming-knoxville-tn.html</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://knoxvilletreesservices.com/tree-removal-knoxville-tn.html</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://knoxvilletreesservices.com/tree-care-knoxville-tn.html</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://knoxvilletreesservices.com/about.html</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://knoxvilletreesservices.com/privacy-policy.html</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://knoxvilletreesservices.com/terms-of-service.html</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>

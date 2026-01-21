@@ -11,17 +11,24 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1712412654077198"
           crossorigin="anonymous"></script>
 </head>
-<body>
+<body data-default-sort="Highest Rated">
 <header class="header">
+  <a href="/index.html" class="brandLink">
+    <img src="/icon.png" alt="Knoxville tree service icon" class="brand-icon" />
+  </a>
   <div class="nav">
     <div class="brand">
+
       <span>Most Affordable Tree Service Near Me Knoxville TN</span>
       <span class="badge">Directory</span>
     </div>
     <nav class="navlinks">
       <a href="index.html#directory">All tree services</a>
-      <a href="index.html?service=Tree%20Removal#directory">Tree removal</a>
-      <a href="index.html?service=Tree%20Trimming#directory">Tree trimming</a>
+        <a href="tree-removal-knoxville-tn.html">Tree Removal</a>
+        <a href="tree-trimming-knoxville-tn.html">Tree Trimming</a>
+        <a href="tree-care-knoxville-tn.html">Tree Care</a>
+        <a href="tree-contractors-knoxville-tn.html">Tree Contractors</a>
+        <a href="most-affordable-tree-service-knoxville-tn.html">Affordable</a>
     </nav>
   </div>
 </header>
@@ -30,11 +37,18 @@
   <section class="hero">
     <div class="heroCard">
       <h1 class="h1">Most Affordable Tree Service Near Me Knoxville TN</h1>
-      <p class="sub">Affordability means comparing quotes and scope. Use the directory to find local providers, then request estimates with identical requirements.</p>
+      <p class="sub">Affordability means comparing quotes and scope verses quality of service based on reviews. Use the directory to find local providers, then request estimates with identical requirements.</p>
       <div class="ctaRow">
-        <a class="btn btnPrimary" href="index.html?sort=Highest%20Rated#directory">Compare providers</a>
+        <a class="btn btnPrimary" href="#directory">View Most Affordable Results</a>
       </div>
     </div>
+  </section>
+  <section id="directory" class="panel">
+    <div class="resultsMeta">
+      <div class="panelTitle" data-results-title>Most Affordable Results</div>
+      <div class="small" data-count>Loading</div>
+    </div>
+    <div class="cards" data-list></div>
   </section>
 
   <section class="content panel">
@@ -47,5 +61,10 @@
     </ul>
   </section>
 </main>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+  window.DirectoryApp.mount();
+</script>
 </body>
 </html>

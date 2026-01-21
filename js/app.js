@@ -185,6 +185,23 @@
       els.count = document.querySelector("[data-count]");
       els.list = document.querySelector("[data-list]");
 
+      // Apply page-level defaults from <body> or URL
+      const params = new URLSearchParams(location.search);
+      const bodyData = document.body ? document.body.dataset : {};
+
+      const defaultService = params.get("service") || bodyData.defaultService || "";
+      const defaultSort = params.get("sort") || bodyData.defaultSort || "";
+
+      if (defaultService) {
+        state.service = defaultService;
+        if (els.service) els.service.value = defaultService;
+      }
+
+      if (defaultSort) {
+        state.sort = defaultSort;
+        if (els.sort) els.sort.value = defaultSort;
+      }
+
       initFilters();
       render();
     }
