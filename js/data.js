@@ -72,7 +72,7 @@ window.TREE_SERVICES = [
     area: "Knoxville",
     services: ["Tree Removal", "Tree Trimming", "Lawn Services", "Tree Contractors"],
     rating: 4.5,
-    reviews: 95,
+    reviews: 7,
     hours: "Mon–Fri 8am–5pm",
     notes: "Established Knoxville tree and lawn company."
   },
@@ -83,7 +83,7 @@ window.TREE_SERVICES = [
     area: "Powell",
     services: ["Tree Removal", "Tree Trimming", "Stump Grinding", "Tree Contractors"],
     rating: 4.7,
-    reviews: 130,
+    reviews: 31,
     hours: "Mon–Sat 8am–6pm",
     notes: "Serving Powell and greater Knoxville area."
   },
