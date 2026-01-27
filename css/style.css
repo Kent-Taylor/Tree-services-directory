@@ -119,6 +119,10 @@ textarea {
   letter-spacing:0.06em;
   text-transform:uppercase;
   line-height:1;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .visually-hidden {
@@ -353,7 +357,9 @@ header img {
   display:grid;
   gap:12px;
 }
-.h1{font-size:30px;line-height:1.15;margin:0;font-weight:900}
+.h1{font-size:30px;line-height:1.15;margin:0;font-weight:900;
+
+}
 .sub{margin:0;color:var(--muted);font-size:15px;line-height:1.5}
 .ctaRow{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
 .btn{
@@ -378,8 +384,14 @@ header img {
 }
 @media (max-width: 880px){
   .grid{grid-template-columns:1fr}
-  .h1{font-size:26px}
+  .h1{font-size:26px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   header {
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -395,11 +407,24 @@ header img {
   border:1px solid var(--border);
   border-radius:var(--radius);
   padding:16px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
-.panelTitle{margin:0 0 10px 0;font-size:16px;font-weight:850}
+.panelTitle{margin:0 0 10px 0;font-size:16px;font-weight:850;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .filters{
   display:grid;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap:10px;
 }
 .row{display:grid;gap:8px}
@@ -444,6 +469,10 @@ header img {
   border-radius:var(--radius);
   padding:14px;
   box-shadow:0 10px 28px rgba(0,0,0,.22);
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .cardTop{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .cardName{margin:0;font-size:16px;font-weight:900}
