@@ -1,12 +1,10 @@
 {
-  "short_name": "",
-  "name": "",
-  "icons": [{
-    "src": "icon.png",
-    "type": "image/png",
-    "sizes": "192x192"
-  }],
-  "start_url": "/?utm_source=homescreen",
-  "background_color": "#fafafa",
-  "theme_color": "#fafafa"
+  "name": "Knoxville Tree Services Directory",
+  "short_name": "Knox Tree",
+  "description": "An independent directory of source-checked Knoxville-area tree-service providers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfaf4",
+  "theme_color": "#154f36",
+  "icons": [{"src": "/icon.png", "type": "image/png", "sizes": "800x800", "purpose": "any"}]
 }
