@@ -51,6 +51,6 @@ const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 const sitemapPaths = [...sitemap.matchAll(/<loc>https:\/\/knoxvilletreesservices\.com\/(.*?)<\/loc>/g)].map((match) => match[1] || "index.html");
 assert(sitemapPaths.length === expectedPages.length, "Sitemap page count does not match canonical page count.");
 expectedPages.forEach((file) => assert(sitemapPaths.includes(file), `Sitemap missing ${file}`));
-assert(fs.readFileSync(path.join(root, "ads.txt"), "utf8").includes("pub-1712412654077198"), "ads.txt publisher id is missing.");
+assert(fs.readFileSync(path.join(root, "ads.txt"), "utf8").includes("pub-2655194428154886"), "ads.txt publisher id is missing.");
 assert(fs.readFileSync(path.join(root, "robots.txt"), "utf8").includes("https://knoxvilletreesservices.com/sitemap.xml"), "robots.txt sitemap is missing.");
 console.log(`Validated ${providers.length} curated providers and ${expectedPages.length} canonical pages.`);
